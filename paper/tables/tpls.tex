@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+  \centering
+  \caption{T-PLS decomposition algorithm for single output PLS models}
+  \begin{tabular}{cp{5in}}
+    \toprule
+    Step  & \\
+    \midrule
+    1 &  Center the columns of $\mathbf{X, y}$ to zero mean and scale them to unit variance \\
+    2 &  Run PLS1 algorithm on ($\mathbf{X,y}$) to estimate $\mathbf T$,
+     $\left\{ \begin{array}{l}
+{\bf{X = T}}{{\bf{P}}^T}{\bf{ + E}}\\
+{\bf{y = T}}{{\bf{q}}^T}{\bf{ + F}}
+\end{array} \right.$
+    where ${\bf{T}} \in {\mathbb{R}^{n \times A}},{\bf{q}},{\bf{P}},{\bf{T}}$ are obtained by PLS1, $A$ is the cross-validated number of principal components.\\
+\\
+    3 &  $\mathbf t_y = \mathbf{Tq}^T$. \\
+    4 &  ${\bf{\hat X}} = {\bf{T}}{{\bf{P}}^T},{{\bf{p}}_y} = {\bf{\hat X}}{{\bf{t}}_y}/{\bf{t}}_y^T{{\bf{t}}_y}$.\\
+     5 & ${{\bf{\hat X}}_0} = {\bf{\hat X}} - {{\bf{t}}_y}{\bf{p}}_y^T = {{\bf{T}}_o}{\bf{P}}_o^T$, run PCA on $\bf{\hat X}_o$ with $A - 1$ components\\
+     6 & ${\bf{E}} = {{\bf{T}}_r}{\bf{P}}_r^T + {{\bf{E}}_r}$, run PCA on $\bf E$ with $A_r$ components, where $A_r < m - A$ is determined using cross-validation.\\
+    \bottomrule
+  \end{tabular}%
+  \label{tab:tpls_algorithm}%
+\end{table}

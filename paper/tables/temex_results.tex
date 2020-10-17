@@ -1,0 +1,99 @@
+\begin{table}[]
+\caption{Fault detection speed for the Tennessee Eastman Process (lower is faster, blank means failure to detect)}
+\resizebox{16cm}{!}{
+    \hskip -2cm\begin{tabular}{r|rr|rrrrrrr|rrr}
+    \toprule
+          &       &       & \multicolumn{7}{|c|}{Russel et al. \cite{Russell2000}}         & \multicolumn{3}{|c}{Zhang \cite{Zhang2008a}} \\
+    \hline
+    Fault & GSMMS & Average time & PCA $T^2$ & PCA Q & DPCA $T^2$ & DPCA Q & CVA $T^2$ & CVA$T^2_r$ & CVA Q & KPCA  & KICA  & Imp. KICA \\ \hline
+    1     & 24    & 13    & 21    & 9     & 18    & 15    & 6     & 9     & 6     & 15    & 9     & 6 \\
+    2     & 240   & 41    & 51    & 36    & 48    & 39    & 39    & 45    & 75    & 30    & 36    & 33 \\
+    3     & 15    &       &       &       &       &       &       &       &       &       &       &  \\
+    4     &      & 234   &       & 9     & 453   & 3     & 1386  & 3     &       & 9     & 6     & 6 \\
+    5     & 16    & 8     & 48    & 3     & 6     & 6     & 3     & 3     & 0     & 3     & 3     & 3 \\ \hline
+    6     & 27    & 9     & 30    & 3     & 633   & 3     & 3     & 3     & 0     & 3     & 3     & 0 \\
+    7     & 7     & 5     & 3     & 3     & 3     & 3     & 3     & 3     & 0     & 3     & 3     & 0 \\
+    8     & 76    & 64    & 69    & 60    & 69    & 63    & 60    & 60    & 63    & 75    & 69    & 60 \\
+    9     &       & 899   &       &       &       &       &       &       &       &       &       &  \\
+    10    & 183   & 131   & 288   & 147   & 303   & 150   & 75    & 69    & 132   & 60    & 51    & 42 \\       \hline
+    11    & 69    & 271   & 912   & 33    & 585   & 21    & 876   & 33    & 81    & 69    & 57    & 45 \\
+    12    & 162   & 15    & 66    & 24    & 9     & 24    & 6     & 6     & 0     & 9     & 6     & 3 \\
+    13    & 139   & 110   & 147   & 111   & 135   & 120   & 126   & 117   & 129   & 123   & 114   & 99 \\
+    14    & 16      & 6     & 12    & 3     & 18    & 3     & 6     & 3     & 3     & 3     & 3     & 3 \\
+    15    & 323   & 865   &       & 2220  &       &       & 2031  &       &       & 27    & 27    & 21 \\ \hline
+    16    & 328   & 304   & 936   & 591   & 597   & 588   & 42    & 27    & 33    & 27    & 21    & 9 \\
+    17    & 166   & 89    & 87    & 75    & 84    & 72    & 81    & 60    & 69    & 57    & 51    & 51 \\
+    18    & 260   & 242   & 279   & 252   & 279   & 252   & 249   & 237   & 252   & 222   & 198   & 195 \\
+    19    &       & 140   &       &       &       & 246   &       & 33    &       &       &       &  \\
+    20    & 228   & 189   & 261   & 261   & 267   & 252   & 246   & 198   & 216   & 177   & 165   & 135 \\
+    \bottomrule
+    \end{tabular}%
+} \label{tab:temex_rate}
+\end{table}
+
+
+\begin{table}[htbp]
+  \centering
+  \caption{Missed alarm rates in percentages for the Tennessee Eastman Process (lower is better, blank means failure to detect)}
+  \resizebox{16cm}{!}{
+    \hskip -2cm\begin{tabular}{c|c|ccccccc|ccc}
+    \toprule
+          &       & \multicolumn{7}{|c|}{Russel et al. \cite{Russell2000}}         & \multicolumn{3}{|c}{Zhang \cite{Zhang2008a}} \\
+    \hline
+    Fault & GSMMS & PCA $T^2$ & PCA Q & DPCA $T^2$ & DPCA Q & CVA $T^2$ & CVA$T^2_r$ & CVA Q & KPCA  & KICA  & Imp. KICA \\
+    \hline
+    1     & 1.3  & 0.8   & 0.3   & 0.6   & 0.5   & 0.1   & 0     & 0.3   & 0     & 0     & 0   \\
+    2     & 2.1  & 2.0   & 1.4   & 1.9   & 1.5   & 1.1   & 1.0   & 2.6   & 2.0   & 2.0   &  \\
+    3     & 73.5   & 99.8  & 99.1  & 99.1  & 99.0  & 98.1  & 98.6  & 98.5  & 96.0  & 94.0  & 92.0 \\
+    4     &     & 95.6  & 3.8   & 93.9  & 0     & 68.8  & 0     & 97.5  & 91.0  & 18.0  & 19.0 \\
+    5     & 3.2  & 77.5  & 74.6  & 75.8  & 74.8  & 0     & 0     & 0     & 75.0  & 71.0  & 71.0 \\ \hline
+    6     & 0.9  & 1.1   & 0     & 1.3   & 0     & 0     & 0     & 0     & 1.0   & 0     & 0   \\
+    7     & 13.4   & 8.5   & 0     & 15.9  & 0     & 38.6  & 0     & 48.6  & 0     & 0     & 0   \\
+    8     & 2.8  & 3.4   & 2.4   & 2.8   & 2.5   & 2.1   & 1.6   & 48.6  & 3.0   & 3.0   & 2.0 \\
+    9     &      & 99.4  & 98.1  & 99.5  & 99.4  & 98.6  & 99.3  & 99.3  & 96.0  & 95.0  & 95.0 \\
+    10    & 12.4  & 66.6  & 65.9  & 58.0  & 66.5  & 16.6  & 9.9   & 59.9  & 57.0  & 19.0  & 20.0 \\ \hline
+    11    & 43.2  & 79.4  & 35.6  & 80.1  & 19.3  & 51.5  & 19.5  & 66.9  & 76.0  & 19.0  & 18.0 \\
+    12    & 1.5  & 2.9   & 2.5   & 1.0   & 2.4   & 0     & 0     & 2.1   & 3.0   & 3.0   & 2.0 \\
+    13    & 2.7  & 6.0   & 4.5   & 4.9   & 4.9   & 4.7   & 4.0   & 5.5   & 6.0   & 5.0   & 5.0 \\
+    14    & 3.2      & 15.8  & 0     & 6.1   & 0     & 0     & 0     & 12.2  & 21.0  & 0     & 0   \\
+    15    & 83.5  & 98.8  & 97.3  & 96.4  & 97.6  & 92.8  & 90.3  & 97.9  & 95.0  & 95.0  & 94.0 \\ \hline
+    16    & 92.5  & 83.4  & 75.5  & 78.3  & 70.8  & 16.6  & 8.4   & 42.9  & 70.0  & 20.0  & 20.0 \\
+    17    & 70.3  & 25.9  & 10.8  & 24.0  & 5.3   & 10.4  & 2.4   & 16.8  & 26.0  & 5.0   & 5.0 \\
+    18    & 24.5  & 11.3  & 10.1  & 11.1  & 10.0  & 9.4   & 9.2   & 10.2  & 10.0  & 10.0  & 9.0 \\
+    19    &       & 99.6  & 87.3  & 99.3  & 73.5  & 84.9  & 1.9   & 92.3  & 97.0  & 25.0  & 23.0 \\
+    20    & 23.8  & 70.1  & 57.0  & 64.4  & 55.8  & 44.0  & 34.2  & 54.7  & 59.0  & 42.0  & 50.0 \\
+
+    \bottomrule
+    \end{tabular}%
+    }
+  \label{tab:temex_missed}%
+\end{table}%
+
+
+
+\begin{table}[]
+\caption{False alarm rates in percentages for the Tennessee Eastman Process (lower is better)}
+{\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{r|c|c}
+\toprule
+& Methods & False Detection Rate \\
+\hline
+
+& GSMMS-PCA & 5.7
+\\ \hline
+Russell et al. \cite{Russell2000} & PCA $T^2$ & 1.4 \\
+& PCA Q & 16.0 \\
+& DPCA $T^2$ & 0.6 \\
+& DPCA Q & 28.1 \\
+& CVA $T_s^2$ & 8.3 \\
+& CVA $T_r^2$ & 12.6 \\
+& CVA Q & 8.7 \\ \hline
+
+Zhang \cite{Zhang2008a}& PCA $T^2$ & 0.5 \\
+& KPCA $T^2$ & 1.52 \\
+& KICA $T^2$ & 0.31 \\
+& Improved KICA $T^2$ & 0.27 \\
+\bottomrule
+\end{tabular}
+} \label{tab:temex_false}
+\end{table}

@@ -1,0 +1,351 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\BIBand}{and}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Guo et~al.(2014)Guo, Zhao and Huang}]{Guo2014}
+\bibinfo{author}{Guo\xfnm[ Y.]}, \bibinfo{author}{Zhao\xfnm[ Y.]},
+  \bibinfo{author}{Huang\xfnm[ B.]}.
+\newblock \bibinfo{title}{{Development of soft sensor by incorporating the
+  delayed infrequent and irregular measurements}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2014};\bibinfo{volume}{24}(\bibinfo{number}{11}):\bibinfo{pages}{1733--1739}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2014.09.006}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152414002455}.
+%Type = Article
+\bibitem[{Zhu et~al.(2015)Zhu, Ge and Song}]{Zhu2015}
+\bibinfo{author}{Zhu\xfnm[ J.]}, \bibinfo{author}{Ge\xfnm[ Z.]},
+  \bibinfo{author}{Song\xfnm[ Z.]}.
+\newblock \bibinfo{title}{{Robust semi-supervised mixture probabilistic
+  principal component regression model development and application to soft
+  sensors}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2015};\bibinfo{volume}{32}:\bibinfo{pages}{25--37}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2015.04.015}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152415000906}.
+%Type = Article
+\bibitem[{Godoy et~al.(2017)Godoy, Marchetti and Vega}]{Godoy2017}
+\bibinfo{author}{Godoy\xfnm[ J.L.]}, \bibinfo{author}{Marchetti\xfnm[ J.L.]},
+  \bibinfo{author}{Vega\xfnm[ J.R.]}.
+\newblock \bibinfo{title}{{An integral approach to inferential quality control
+  with self-validating soft-sensors}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2017};\bibinfo{volume}{50}:\bibinfo{pages}{56--65}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2016.12.001}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152416301676}.
+%Type = Article
+\bibitem[{Shang et~al.(2015)Shang, Huang, Suykens and Huang}]{Shang2015}
+\bibinfo{author}{Shang\xfnm[ C.]}, \bibinfo{author}{Huang\xfnm[ X.]},
+  \bibinfo{author}{Suykens\xfnm[ J.A.]}, \bibinfo{author}{Huang\xfnm[ D.]}.
+\newblock \bibinfo{title}{{Enhancing dynamic soft sensors based on DPLS: A
+  temporal smoothness regularization approach}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2015};\bibinfo{volume}{28}:\bibinfo{pages}{17--26}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2015.02.006}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152415000335}.
+%Type = Article
+\bibitem[{Chen et~al.(2017)Chen, Chen, She and Wu}]{Chen2017}
+\bibinfo{author}{Chen\xfnm[ X.]}, \bibinfo{author}{Chen\xfnm[ X.]},
+  \bibinfo{author}{She\xfnm[ J.]}, \bibinfo{author}{Wu\xfnm[ M.]}.
+\newblock \bibinfo{title}{{A hybrid just-in-time soft sensor for carbon
+  efficiency of iron ore sintering process based on feature extraction of
+  cross-sectional frames at discharge end}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2017};\bibinfo{volume}{54}:\bibinfo{pages}{14--24}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2017.01.006}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S095915241730015X}.
+%Type = Article
+\bibitem[{Cao and Luo(2014)}]{Cao2014}
+\bibinfo{author}{Cao\xfnm[ P.]}, \bibinfo{author}{Luo\xfnm[ X.]}.
+\newblock \bibinfo{title}{{Modeling for soft sensor systems and parameters
+  updating online}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2014};\bibinfo{volume}{24}(\bibinfo{number}{6}):\bibinfo{pages}{975--990}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2014.04.020}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152414001218}.
+%Type = Article
+\bibitem[{Qin(2012)}]{Qin2012}
+\bibinfo{author}{Qin\xfnm[ S.J.]}.
+\newblock \bibinfo{title}{{Survey on data-driven industrial process monitoring
+  and diagnosis}}.
+\newblock \bibinfo{journal}{Annual Reviews in Control}
+  \bibinfo{year}{2012};\bibinfo{volume}{36}:\bibinfo{pages}{220--234}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1367578812000399}.
+%Type = Article
+\bibitem[{Kadlec et~al.(2011)Kadlec, Grbi{\'{c}} and Gabrys}]{Kadlec2011}
+\bibinfo{author}{Kadlec\xfnm[ P.]}, \bibinfo{author}{Grbi{\'{c}}\xfnm[ R.]},
+  \bibinfo{author}{Gabrys\xfnm[ B.]}.
+\newblock \bibinfo{title}{{Review of adaptation mechanisms for data-driven soft
+  sensors}}.
+\newblock \bibinfo{journal}{Computers {\&} Chemical Engineering}
+  \bibinfo{year}{2011};\bibinfo{volume}{35}(\bibinfo{number}{1}):\bibinfo{pages}{1--24}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.compchemeng.2010.07.034}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0098135410002838}.
+%Type = Article
+\bibitem[{Yu and Qin(2008)}]{Yu2008}
+\bibinfo{author}{Yu\xfnm[ J.]}, \bibinfo{author}{Qin\xfnm[ S.J.]}.
+\newblock \bibinfo{title}{{Multimode Process Monitoring with Bayesian
+  Inference-Based Finite Gaussian Mixture Models}}.
+\newblock \bibinfo{journal}{AIChE Journal}
+  \bibinfo{year}{2008};\bibinfo{volume}{54}(\bibinfo{number}{7}):\bibinfo{pages}{1811--1829}.
+\newblock \doi{\bibinfo{doi}{10.1002/aic}}.
+%Type = Article
+\bibitem[{Liu(2016)}]{Liu2016}
+\bibinfo{author}{Liu\xfnm[ J.]}.
+\newblock \bibinfo{title}{{Developing a soft sensor with online variable
+  reselection for unobserved multi-mode operations}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2016};\bibinfo{volume}{42}:\bibinfo{pages}{90--103}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2016.03.007}}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959152416300154}.
+%Type = Article
+\bibitem[{Dunia et~al.(2012)Dunia, Edgar, Blevins and Wojsznis}]{Dunia2012}
+\bibinfo{author}{Dunia\xfnm[ R.]}, \bibinfo{author}{Edgar\xfnm[ T.F.]},
+  \bibinfo{author}{Blevins\xfnm[ T.]}, \bibinfo{author}{Wojsznis\xfnm[ W.]}.
+\newblock \bibinfo{title}{{Multistate analytics for continuous processes}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2012};\bibinfo{volume}{22}:\bibinfo{pages}{1445--1456}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.jprocont.2012.01.021}}.
+%Type = Article
+\bibitem[{Kadlec and Gabrys(2011)}]{Kadlec2011a}
+\bibinfo{author}{Kadlec\xfnm[ P.]}, \bibinfo{author}{Gabrys\xfnm[ B.]}.
+\newblock \bibinfo{title}{{Local learning-based adaptive soft sensor for
+  catalyst activation prediction}}.
+\newblock \bibinfo{journal}{AIChE Journal}
+  \bibinfo{year}{2011};\bibinfo{volume}{57}(\bibinfo{number}{5}):\bibinfo{pages}{1288--1301}.
+\newblock \doi{\bibinfo{doi}{10.1002/aic.12346}}.
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/aic.12346}.
+%Type = Article
+\bibitem[{Liu(2007)}]{Liu2007}
+\bibinfo{author}{Liu\xfnm[ J.]}.
+\newblock \bibinfo{title}{{On-line soft sensor for polyethylene process with
+  multiple production grades}}.
+\newblock \bibinfo{journal}{Control Engineering Practice}
+  \bibinfo{year}{2007};\bibinfo{volume}{15}(\bibinfo{number}{7}):\bibinfo{pages}{769--778}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.conengprac.2005.12.005}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S096706610600013X}.
+%Type = Article
+\bibitem[{Liu et~al.(2009{\natexlab{a}})Liu, Djurdjanovic, Marko and
+  Ni}]{Liu2009}
+\bibinfo{author}{Liu\xfnm[ J.]}, \bibinfo{author}{Djurdjanovic\xfnm[ D.]},
+  \bibinfo{author}{Marko\xfnm[ K.a.]}, \bibinfo{author}{Ni\xfnm[ J.]}.
+\newblock \bibinfo{title}{{A divide and conquer approach to anomaly detection,
+  localization and diagnosis}}.
+\newblock \bibinfo{journal}{Mechanical Systems and Signal Processing}
+  \bibinfo{year}{2009}{\natexlab{a}};\bibinfo{volume}{23}(\bibinfo{number}{8}):\bibinfo{pages}{2488--2499}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.ymssp.2009.05.016}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0888327009001873}.
+%Type = Article
+\bibitem[{Lin et~al.(2007)Lin, Recke, Knudsen and J{\o}rgensen}]{Lin2007}
+\bibinfo{author}{Lin\xfnm[ B.]}, \bibinfo{author}{Recke\xfnm[ B.]},
+  \bibinfo{author}{Knudsen\xfnm[ J.K.]}, \bibinfo{author}{J{\o}rgensen\xfnm[
+  S.B.]}.
+\newblock \bibinfo{title}{{A systematic approach for soft sensor development}}.
+\newblock \bibinfo{journal}{Computers {\&} Chemical Engineering}
+  \bibinfo{year}{2007};\bibinfo{volume}{31}(\bibinfo{number}{5-6}):\bibinfo{pages}{419--425}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.compchemeng.2006.05.030}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0098135406001293}.
+%Type = Article
+\bibitem[{Eriksson et~al.(2009)Eriksson, Trygg and Wold}]{Eriksson2009}
+\bibinfo{author}{Eriksson\xfnm[ L.]}, \bibinfo{author}{Trygg\xfnm[ J.]},
+  \bibinfo{author}{Wold\xfnm[ S.]}.
+\newblock \bibinfo{title}{{PLS-trees(R), a top-down clustering approach}}.
+\newblock \bibinfo{journal}{Journal of Chemometrics}
+  \bibinfo{year}{2009};\bibinfo{volume}{23}(\bibinfo{number}{11}):\bibinfo{pages}{569--580}.
+\newblock \doi{\bibinfo{doi}{10.1002/cem.1254}}.
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/cem.1254}.
+%Type = Article
+\bibitem[{Thissen et~al.(2005)Thissen, Swierenga, de~Weijer, Wehrens, Melssen
+  and Buydens}]{Thissen2005}
+\bibinfo{author}{Thissen\xfnm[ U.]}, \bibinfo{author}{Swierenga\xfnm[ H.]},
+  \bibinfo{author}{de~Weijer\xfnm[ a.P.]}, \bibinfo{author}{Wehrens\xfnm[ R.]},
+  \bibinfo{author}{Melssen\xfnm[ W.J.]}, \bibinfo{author}{Buydens\xfnm[
+  L.M.C.]}.
+\newblock \bibinfo{title}{{Multivariate statistical process control using
+  mixture modelling}}.
+\newblock \bibinfo{journal}{Journal of Chemometrics}
+  \bibinfo{year}{2005};\bibinfo{volume}{19}(\bibinfo{number}{1}):\bibinfo{pages}{23--31}.
+\newblock \doi{\bibinfo{doi}{10.1002/cem.903}}.
+\newblock \urlprefix\url{http://doi.wiley.com/10.1002/cem.903}.
+%Type = Article
+\bibitem[{Sammaknejad et~al.(2015)Sammaknejad, Huang, Xiong, Fatehi, Xu and
+  Espejo}]{Sammaknejad2015}
+\bibinfo{author}{Sammaknejad\xfnm[ N.]}, \bibinfo{author}{Huang\xfnm[ B.]},
+  \bibinfo{author}{Xiong\xfnm[ W.]}, \bibinfo{author}{Fatehi\xfnm[ A.]},
+  \bibinfo{author}{Xu\xfnm[ F.]}, \bibinfo{author}{Espejo\xfnm[ A.]}.
+\newblock \bibinfo{title}{Operating condition diagnosis based on hmm with
+  adaptive transition probabilities in presence of missing observations}.
+\newblock \bibinfo{journal}{AIChE Journal}
+  \bibinfo{year}{2015};\bibinfo{volume}{61}(\bibinfo{number}{2}):\bibinfo{pages}{477--493}.
+\newblock \doi{\bibinfo{doi}{10.1002/aic.14661}}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/aic.14661}.
+%Type = Article
+\bibitem[{Yu(2011)}]{Yu2011}
+\bibinfo{author}{Yu\xfnm[ J.]}.
+\newblock \bibinfo{title}{{Fault Detection Using Principal Components-Based
+  Gaussian Mixture Model for Semiconductor}}.
+\newblock \bibinfo{journal}{IEEE Transactions on Semiconductor Manufacturing}
+  \bibinfo{year}{2011};\bibinfo{volume}{24}:\bibinfo{pages}{432--444}.
+\newblock \doi{\bibinfo{doi}{10.1109/TSM.2011.2154850}}.
+%Type = Article
+\bibitem[{Yoo et~al.(2007)Yoo, Villez, Lee, Ros{\'{e}}n and
+  Vanrolleghem}]{yoo2007multi}
+\bibinfo{author}{Yoo\xfnm[ C.K.]}, \bibinfo{author}{Villez\xfnm[ K.]},
+  \bibinfo{author}{Lee\xfnm[ I.B.]}, \bibinfo{author}{Ros{\'{e}}n\xfnm[ C.]},
+  \bibinfo{author}{Vanrolleghem\xfnm[ P.A.]}.
+\newblock \bibinfo{title}{{Multi-model statistical process monitoring and
+  diagnosis of a sequencing batch reactor}}.
+\newblock \bibinfo{journal}{Biotechnology and bioengineering}
+  \bibinfo{year}{2007};\bibinfo{volume}{96}(\bibinfo{number}{4}):\bibinfo{pages}{687--701}.
+%Type = Article
+\bibitem[{Zhao et~al.(2010)Zhao, Yao, Gao and Wang}]{zhao2010statistical}
+\bibinfo{author}{Zhao\xfnm[ C.]}, \bibinfo{author}{Yao\xfnm[ Y.]},
+  \bibinfo{author}{Gao\xfnm[ F.]}, \bibinfo{author}{Wang\xfnm[ F.]}.
+\newblock \bibinfo{title}{{Statistical analysis and online monitoring for
+  multimode processes with between-mode transitions}}.
+\newblock \bibinfo{journal}{Chemical Engineering Science}
+  \bibinfo{year}{2010};\bibinfo{volume}{65}(\bibinfo{number}{22}):\bibinfo{pages}{5961--5975}.
+%Type = Article
+\bibitem[{Zhao et~al.(2004)Zhao, Zhang and Xu}]{zhao2004monitoring}
+\bibinfo{author}{Zhao\xfnm[ S.J.]}, \bibinfo{author}{Zhang\xfnm[ J.]},
+  \bibinfo{author}{Xu\xfnm[ Y.M.]}.
+\newblock \bibinfo{title}{{Monitoring of processes with multiple operating
+  modes through multiple principle component analysis models}}.
+\newblock \bibinfo{journal}{Industrial {\&} engineering chemistry research}
+  \bibinfo{year}{2004};\bibinfo{volume}{43}(\bibinfo{number}{22}):\bibinfo{pages}{7025--7035}.
+%Type = Article
+\bibitem[{Bleakie and Djurdjanovic(2013)}]{Bleakie2013}
+\bibinfo{author}{Bleakie\xfnm[ A.]}, \bibinfo{author}{Djurdjanovic\xfnm[ D.]}.
+\newblock \bibinfo{title}{{Feature extraction, condition monitoring, and fault
+  modeling in semiconductor manufacturing systems}}.
+\newblock \bibinfo{journal}{Computers in Industry}
+  \bibinfo{year}{2013};\bibinfo{volume}{64}(\bibinfo{number}{3}):\bibinfo{pages}{203--213}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.compind.2012.10.002}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0166361512001728}.
+%Type = Misc
+\bibitem[{Kohonen(1982)}]{Kohonen1982}
+\bibinfo{author}{Kohonen\xfnm[ T.]}.
+\newblock \bibinfo{title}{{Self-organized formation of topologically correct
+  feature maps}}.
+\newblock \bibinfo{year}{1982}.
+\newblock \doi{\bibinfo{doi}{10.1007/BF00337288}}.
+%Type = Article
+\bibitem[{Akinduko et~al.(2016)Akinduko, Mirkes and
+  Gorban}]{Akinduko:2016:SOM:2957613.2957681}
+\bibinfo{author}{Akinduko\xfnm[ A.A.]}, \bibinfo{author}{Mirkes\xfnm[ E.M.]},
+  \bibinfo{author}{Gorban\xfnm[ A.N.]}.
+\newblock \bibinfo{title}{Som}.
+\newblock \bibinfo{journal}{Inf Sci}
+  \bibinfo{year}{2016};\bibinfo{volume}{364}(\bibinfo{number}{C}):\bibinfo{pages}{213--221}.
+\newblock \doi{\bibinfo{doi}{10.1016/j.ins.2015.10.013}}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.ins.2015.10.013}.
+%Type = Book
+\bibitem[{Russell and Norvig(2009)}]{Russell2009}
+\bibinfo{author}{Russell\xfnm[ S.]}, \bibinfo{author}{Norvig\xfnm[ P.]}.
+\newblock \bibinfo{title}{{Artificial Intelligence: A Modern Approach, 3rd
+  edition}}.
+\newblock \bibinfo{year}{2009}.
+\newblock ISBN \bibinfo{isbn}{0136042597}.
+\newblock \doi{\bibinfo{doi}{10.1017/S0269888900007724}}.
+\newblock
+  \urlprefix\url{http://portal.acm.org/citation.cfm?id=1671238{\&}coll=DL{\&}dl=GUIDE{\&}CFID=190864501{\&}CFTOKEN=29051579$\backslash$npapers2://publication/uuid/4B787E16-89F6-4FF7-A5E5-E59F3CFEFE88}.
+%Type = Article
+\bibitem[{de~Jong(1992)}]{Jong1992}
+\bibinfo{author}{de~Jong\xfnm[ S.]}.
+\newblock \bibinfo{title}{{SIMPLS: an alternative approach to partial least
+  squares regression}}.
+\newblock \bibinfo{journal}{Chemometrics and Intelligent Laboratory Systems}
+  \bibinfo{year}{1992};(\bibinfo{number}{18}):\bibinfo{pages}{251--263}.
+%Type = Article
+\bibitem[{Liu et~al.(2009{\natexlab{b}})Liu, Djurdjanovic, Marko and
+  Ni}]{Liu2009a}
+\bibinfo{author}{Liu\xfnm[ J.]}, \bibinfo{author}{Djurdjanovic\xfnm[ D.]},
+  \bibinfo{author}{Marko\xfnm[ K.]}, \bibinfo{author}{Ni\xfnm[ J.]}.
+\newblock \bibinfo{title}{{Growing Structure Multiple Model Systems for Anomaly
+  Detection and Fault Diagnosis}}.
+\newblock \bibinfo{journal}{Journal of Dynamic Systems, Measurement, and
+  Control}
+  \bibinfo{year}{2009}{\natexlab{b}};\bibinfo{volume}{131}(\bibinfo{number}{5}):\bibinfo{pages}{051001}.
+\newblock \doi{\bibinfo{doi}{10.1115/1.3155004}}.
+\newblock
+  \urlprefix\url{http://dynamicsystems.asmedigitalcollection.asme.org/article.aspx?articleid=1476070}.
+%Type = Article
+\bibitem[{Li et~al.(2000)Li, Yue, Valle-Cervantes and Qin}]{Li2000a}
+\bibinfo{author}{Li\xfnm[ W.]}, \bibinfo{author}{Yue\xfnm[ H.]},
+  \bibinfo{author}{Valle-Cervantes\xfnm[ S.]}, \bibinfo{author}{Qin\xfnm[ S.]}.
+\newblock \bibinfo{title}{{Recursive PCA for adaptive process monitoring}}.
+\newblock \bibinfo{journal}{Journal of Process Control}
+  \bibinfo{year}{2000};\bibinfo{volume}{10}(\bibinfo{number}{5}):\bibinfo{pages}{471--486}.
+\newblock \doi{\bibinfo{doi}{10.1016/S0959-1524(00)00022-6}}.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0959152400000226}.
+%Type = Article
+\bibitem[{Qin(1998)}]{Qin1998}
+\bibinfo{author}{Qin\xfnm[ S.J.]}.
+\newblock \bibinfo{title}{{Recursive PLS algorithms for adaptive data
+  modeling}}.
+\newblock \bibinfo{journal}{Computers {\&} Chemical Engineering}
+  \bibinfo{year}{1998};\bibinfo{volume}{22}(\bibinfo{number}{4}):\bibinfo{pages}{503--514}.
+%Type = Book
+\bibitem[{Plummer et~al.(2000)Plummer, Deal and Peter}]{Plummer2000}
+\bibinfo{author}{Plummer\xfnm[ J.]}, \bibinfo{author}{Deal\xfnm[ M.]},
+  \bibinfo{author}{Peter\xfnm[ G.]}.
+\newblock \bibinfo{title}{{Silicon VSLI Technology: Fundamentals, Practice and
+  Modeling}}.
+\newblock \bibinfo{publisher}{Prentice Hall}; \bibinfo{year}{2000}.
+\newblock
+  \urlprefix\url{http://www.amazon.com/Silicon-VLSI-Technology-Fundamentals-Practice/dp/0130850373}.
+%Type = Article
+\bibitem[{Westerhuis et~al.(1999)Westerhuis, Kourti and
+  Macgregor}]{Westerhuis1999}
+\bibinfo{author}{Westerhuis\xfnm[ J.A.]}, \bibinfo{author}{Kourti\xfnm[ T.]},
+  \bibinfo{author}{Macgregor\xfnm[ J.F.]}.
+\newblock \bibinfo{title}{{Comparing alternative approaches for multivariate
+  statistical analysis of batch process data}}.
+\newblock \bibinfo{journal}{Journal of Chemometrics}
+  \bibinfo{year}{1999};\bibinfo{volume}{13}:\bibinfo{pages}{397--413}.
+\newblock
+  \doi{\bibinfo{doi}{10.1002/(SICI)1099-128X(199905/08)13:3/4<397::AID-CEM559>3.0.CO;2-I}}.
+\newblock
+  \urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-0000609488{\&}partnerID=40{\&}md5=1dc8c89b8ac8c4de3a59b64400b2d237}.
+%Type = Article
+\bibitem[{Zhang et~al.(2013)Zhang, Lu and Edgar}]{Zhang2013}
+\bibinfo{author}{Zhang\xfnm[ Y.]}, \bibinfo{author}{Lu\xfnm[ B.]},
+  \bibinfo{author}{Edgar\xfnm[ T.]}.
+\newblock \bibinfo{title}{{Batch Trajectory Synchronization with Robust
+  Derivative Dynamic Time Warping}}.
+\newblock \bibinfo{journal}{Industrial {\&} Engineering Chemistry Research}
+  \bibinfo{year}{2013};\urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ie303310c}.
+%Type = Article
+\bibitem[{Lu et~al.(2014)Lu, Stuber and Edgar}]{Lu2014a}
+\bibinfo{author}{Lu\xfnm[ B.]}, \bibinfo{author}{Stuber\xfnm[ J.]},
+  \bibinfo{author}{Edgar\xfnm[ T.F.]}.
+\newblock \bibinfo{title}{{Integrated Online Virtual Metrology and Fault
+  Detection in Plasma Etch Tools}}.
+\newblock \bibinfo{journal}{Industrial {\&} Engineering Chemistry Research}
+  \bibinfo{year}{2014};\bibinfo{volume}{53}(\bibinfo{number}{13}):\bibinfo{pages}{5172--5181}.
+\newblock \doi{\bibinfo{doi}{10.1021/ie401448d}}.
+\newblock \urlprefix\url{http://pubs.acs.org/doi/abs/10.1021/ie401448d}.
+
+\end{thebibliography}

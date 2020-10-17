@@ -1,0 +1,41 @@
+\begin{table}[htpb]
+\centering
+\caption {Model size, coefficient of determination, and cross-validated root mean squared residual of candidate models}
+\footnotesize
+    \begin{tabular}{lccc}
+    \toprule
+       Method                               &    Approx. model size &  Testing $R^2$ & RMS residual \\ \hline
+       PCA regression &    2700          & 0.425               & 0.0495     \\
+       BPNN    &       $2700\times N_{layers}$    & 0.72 / 0.32 &  0.0823 \\
+       Nonlinear PLS with Neural networks & $600 \times A \times N_{layers}$ & 0.56 / 0.25                          & 0.0623      \\
+       Static PLS &    600          & 0.142              & 0.0998     \\ \hline
+       MW-PLS &    600          & 0.442              & 0.0598     \\
+       MW-PLS w/ TPLS&    ~600          & 0.66              & 0.029     \\
+       Adaptive GSMMS-PLS &    $600 \times 5\rightarrow 600 \times 6 $          & 0.812              & 0.019     \\
+       \bottomrule
+    \end{tabular}
+    \label{tbl:final_comparison}
+\end{table}
+
+\begin{table}[htpb]
+\centering
+\caption {Qualitative evaluation of the candidate models and their implementation difficulty}
+    \label{tbl:final_comparison2}
+\footnotesize
+\resizebox{\textwidth}{!}{
+    \begin{tabular}{lccc p{2cm}}
+    \toprule
+       Method               &    \parbox{2cm}{Development Difficulty} & Prediction $R^2$ &  Implementation Difficulty\\ \hline
+       PCA regression       &      Easy              &     0.2-0.5      &       \parbox{4.5cm}{ Medium (large memory requirement)} \\
+       Static PLS           &      Easy              &     0.1-0.5      &      \parbox{4.5cm}{  Easy           }    \\
+       BPNN                 &  Medium                &    0-0.7         &      \parbox{4.5cm}{ Difficult(nonlinear activation function)           } \\
+       Nonlinear PLS        &  Medium                &    0-0.7         &     \parbox{4.5cm}{Difficult (nonlinear + large memory requirement)  }           \\ \hline
+       MW-PLS               &    Easy                &    0.2-0.6        &     \parbox{4.5cm}{Difficult (requires online update)          } \\
+       MW-PLS w/ TPLS       &    Medium               &    0.5-0.6         &      \parbox{4.5cm}{   Difficult  (requires online update and filtering logic)    } \\
+       Adaptive GSMMS-PLS   &    Difficult          &     0.6-0.8         &      \parbox{4.5cm}{Difficult (requires online update and computationally expensive)} \\
+       \bottomrule
+    \end{tabular}
+}
+\end{table}
+
+\clearpage

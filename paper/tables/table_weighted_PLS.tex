@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Algorithm details of sample weighted PLS algorithm}
+  \begin{tabular}{cp{5in}}
+    \toprule
+    Step  & \\
+    \midrule
+    1 &  Construct weighting matrix $\Omega = diag(w_1,w_2,\ldots,w_P)$\\
+    2 &  Mean center using weighted mean for $X, y$ matrices as follows:
+$\begin{array}{l}
+X_s = X - \bar X' ,{\bar X'} = {\left[ {1,1,...,1} \right]^T}\left[ {{{\bar x}_1},{{\bar x}_1}, \ldots ,{{\bar x}_M}} \right]\\
+y_s = y - \bar y' \\
+{{\bar x}_m} = \sum\limits_{n = 1}^N {{w_n}{x_{nm}}/\sum\limits_{n = 1}^N {{w_n}} }\\
+\bar y' = \sum\limits_{n = 1}^N {{w_n}{y_n}} /\sum\limits_{n = 1}^N {{w_n}}\end{array}$\\
+    3 &  Compute weighted cross product $\mathbf{ S = X_s^T\Omega {y_s}y_s^T\Omega {X_s}}$\\
+      & Let $a = 1$\\
+    4 & If $a = 1$, calculate $\mathbf{[r,s,c]} = SVD(\mathbf S)$ \\
+      & If $a > 1$, calculate $\mathbf{[r,s,c]} = SVD(\mathbf{S-P(P^TP)^{-1}P^TS})$\\
+    5 & Get weights $\mathbf r = $ first left singular vector \\
+    6 & Compute scores $\mathbf{t = X_s r}$ \\
+    7 & Compute x-loading $\mathbf{p = X_s^T \Omega t / (t^T \Omega t)}$ \\
+    8 & Compute y-loading $\mathbf{q = s \cdot c / (t^T \Omega t)}$ \\
+    8 & Store $\mathbf{r,t,p,q}$ and $\mathbf p$ into $\mathbf{R,T,P,Q}$, respectively\\
+    9 & Let $a = a+1$ until $a = A$ and go to Step 4 \\
+    10 & Compute regression coefficients $\mathbf{\beta}_{PLS} = \mathbf{RQ^T/(T^T \Omega T)}$  \\
+    \bottomrule
+  \end{tabular}%
+  \label{tab:weighted_PLS}%
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Summary and assessment the warping methods for trajectory synchronization}
+    \resizebox{\textwidth}{!}{
+    \footnotesize
+    \begin{tabular}{l p{4cm} p{2cm} p{2cm} p{2cm}}
+    \toprule
+    Method & Description & Advantages & Disadvantages & Speed \\
+    \midrule
+    \parbox[t]{2cm}{Truncation and Padding} & Delete (longer) the extra time series or pad (shorter) time series data to the same length based on a golden reference trajectory & Easy-to-implement & Does not explicitly align features & Fast \\
+    \parbox[t]{2cm}{Linear Time Scaling} & Use a monotonic batch evolution indicator variable (percent completion, product concentration, tank level) and stretch or shrink linearly to ensure every trajectory is of same length & Straightforward & Performance dependent on good indicator variable & Fast \\
+    \parbox[t]{2cm}{Dynamic Time Warping} & Solves dynamic programming problem to find the most similar path between two trajectories & Explicit feature alignment & Information loss, trajectory distortion, implementation challenge & Medium \\
+    \parbox[t]{2cm}{Correlation Optimized Warping} & Solves dynamic programming problem with sub-optimization routines to maximize correlation between trjaectory & Explicit feature alignment, less distortion than DTW & Information loss, complex, implementation challenge & Slow \\
+    \bottomrule
+    \end{tabular}}
+  \label{tab:warping_review}%
+
+\end{table}%

@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Select data driven applications in virtual metrology and other industries}
+    \resizebox{1.05\textwidth}{!}{
+    \scriptsize
+    \begin{tabular}{p{1.5cm} p{2cm} p{2cm} p{4cm} p{4cm}}
+    \toprule
+    Authors & Method & Application & Description & Assessment \\
+    \midrule
+    Gill and Edgar \cite{B2011} & PLS, static Kalman filtered MLR, moving window PLS & Semiconductor plasma etch & Compares the performance of PLS models with several other adaptive approaches & Data pretreatment procedure was unclear, model not tested across maintenance cycles \\
+    Cheng et al. \cite{Cheng2007} & MLR & Semiconductor CVD & Proposes a mechanism to monitor model quality by looking at the statistical distribution of the prediction outputs & Assumes Gaussian assumption in determining if prediction is reliable, results shown for only 20 wafer samples \\
+    Zeng and Spanos \cite{Zeng2009} & PLS, MLR, neural networks & Semiconductor plasma etch & Reviews the overall model development process and evaluates resulting model (PLS, PCA regression, and BPNN ) performances &  Demonstrates the need for variable selection and alignment, methods description not detailed enough for reproduction\\
+    Lynn et al. \cite{Lynn2009} & PLS, neural networks, Gaussian process regression &  Semiconductor plasma etch & Compares the performance of regression methods listed, also compared cluster, window adaptation, and static model performances & Identifies limitation in data availability for smaller local models, GPR shown with promising results but requires a pre-selected small number of inputs which makes them challenging when variable selection changes\\
+    Bleakie et al.  \cite{Bleakie2013} & Growing structure systems, MLR & Semiconductor PECVD & Divide the nonlinear drifting operating space into smaller partitions using GSOM  & Allows for better adaptation against abrupt process changes, but suffers in higher dimensions with more inputs.\\
+    \midrule
+    Lin et al. \cite{Lin2007} & Dynamic PLS, Hampel Identifier & Rotary kiln NOx monitoring &  Applies a combination of recursive PCA outlier detection and a static dynamic PLS model to predict NOx concentration and product concentration in a kiln & demonstrates industrial success of a NOx soft sensor using online data, also shows the need for online outlier removal and data processing for online deployment \\
+    Kadlec et al. \cite{Kadlec2011a} & Incremental local learning, MLR, PLS & Polymerization reactor catalyst activity& Use fuzzy combination with local experts, partitions based on relative residual change & Works for nonlinear methods but prone to over-fitting, difficult for input with higher dimensions \\
+    Fujiwara et al. \cite{Fujiwara2009}& Just-In-Time adaptation, PLS  & Chemical refining, continuous & Locate the most correlated segment of data and train a model to make prediction & The Just-in-Time allows for better adaptation against abrupt process changes, but has large memory and storage requirements \\
+    Galicia et al. \cite{Galicia2011} & Reduced order, summary statistics, PLS & Paper industry, continuous Kamyr digester & Proposes using time delay estimation first and then introduce lagged variables to better predict system dynamics & Simulated case study showed good performance, but industrial data did not show improvement of the RO-DPLS over traditional methods \\
+    Dayal and MacGregor \cite{Dayal1997} & Weighted recursive PLS & mining process for online DMC control & Multioutput PLS (PLS2) prediction of ten process output variables simultaneously, model is updated using recursive PLS with forgetting factor & The forgetting factor for speed of adaptation was tuned based on testing data. The adaptive algorithms still experienced numerical difficulties resulting in predictions that ``blow up'' occasionally\\
+    %Yu et al. \cite{Yu2013} &  Neural network,support vector regression, kernel based GPR & batch polymerization & Proposes using GPR, SVR and NN to perform state estimation of a nonlinear batch process, the proposed new method updates the confidence on the mixture model through Bayesian inference & The method is tested on simulation data with perfect measurement of some of the latent state variables (concentrations for example), which is not feasible in real applications \\
+    \bottomrule
+    \end{tabular}}
+  \label{tab:lit_review}%
+
+\end{table}%

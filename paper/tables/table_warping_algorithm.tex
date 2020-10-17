@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+  \centering
+  \caption{The CsDTW algorithm for batch trajectory alignment}
+  \begin{tabular}{cp{5in}}
+    \toprule
+    Step  & \\
+    \midrule
+    1 &  Given trajectories $R := (r_1,\ldots,r_M)$, $T := (t_1,\ldots,t_N)$, identify key feature marker bounds $(\alpha_i,\beta_i),i \in \mathbb{I}$\\
+    2 &  Calculate $a^*$,$b^* := $\textbf{subsequenceDTW}$(R(\alpha_i:\beta_i),T)$ for each segment identified in Step 1.\\
+    3 &  Formulate the global constraint matrix according to Equation~\ref{eqn:global_constraint}\\
+    4 &  Solve the globally constrained DTW problem for optimal path $p^* = DTW(R,T,C_{\mathrm{constraint}})$\\
+     5 & Apply asymmetric conversion from warp path $p^*$ using Equation~\ref{eqn:assymetric_rule} to obtain final target trajectory\\
+    \bottomrule
+  \end{tabular}%
+  \label{tab:warping_algorithm}%
+\end{table}

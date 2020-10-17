@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Prediction performance of the GSMMS framework in three simulated case studies}
+  \footnotesize
+      \begin{tabular}{rccc}
+    \toprule
+
+          \textbf{Model } & \textbf{\# of Nodes} & \textbf{Testing R2 } & \textbf{RMS Error } \\
+    \midrule
+        & \multicolumn{3}{c}{Case 1 - Operating Mode with Clear Separation} \\
+    \midrule
+    Ideal case  & 4     & 0.97  & 1.01 \\
+    Baseline & 1     & 0.7   & 3.04 \\
+    Piecewise GSMMS  & 4     & 0.97  & 1.01 \\
+
+          & \multicolumn{3}{c}{Case 2 - Multiple Operating Mode with Nonlinear Output} \\
+    \midrule
+    Ideal case  & 4     & 0.98  & 0.99 \\
+    Baseline & 1     & 0.76  & 3.53 \\
+    Piecewise GSMMS  & 5     & 0.91  & 2.38 \\
+
+          & \multicolumn{3}{c}{Case 3 - Multiple Operating Modes with Overlapping Modes} \\
+    \midrule
+    Ideal case  & 5     & 0.96  & 1.09 \\
+    Baseline & 1     & 0.52  & 4.23 \\
+    Piecewise GSMMS  & 6     & 0.85  & 2.13 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:gsmms_simulated}%
+\end{table}

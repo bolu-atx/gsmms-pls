@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Popular data-driven techniques and their adaptation mechanisms}
+    \resizebox{\textwidth}{!}{
+    \footnotesize
+    \begin{tabular}{l p{4cm} p{2cm} p{3cm} p{1cm}}
+    \toprule
+    Method & Description & Advantages & Disadvantages & Speed \\
+    \midrule
+    \parbox[t]{2cm}{Recursive weighing \cite{Qin1998, Helland1992,Li2000a,Khan2008}} & Augment existing loading matrices with new data to recursively update PLS beta coefficients & Simple, efficient & Usually only updates beta coefficients, does not include diagnostics & Fast \\
+    \parbox[t]{2cm}{Moving Window \cite{Lu2014a,Khan2007}} & Slide a data window to include new data and discard older data and perform PLS on new window of data& Straightforward, easiest to implement & Prone to noise and data quality issues & Fast \\
+    \parbox[t]{2cm}{Just-In-Time Adaptive Soft Sensor \cite{Fujiwara2009}} & Locate the most correlated segment of data with the incoming sample and train a model to make a prediction & allowed for better adaptation against abrupt process changes &    Large memory requirement  & Slower \\
+    \midrule
+    \parbox[t]{2cm}{Adaptive kernel learning} & based on least squares SVM with both forward and backward learning modes & regression and classification & Difficult to implement, too many degrees of freedom & Slow \\
+    \parbox[t]{2cm}{Incremental local learning \cite{Kadlec2011a}} & Use fuzzy combination with local experts, partitions based on relative residual change & Nonlinear, disjointed data friendly & Difficult for input with higher dimensions, adaptation limited & Slow \\
+    \parbox[t]{2cm}{Growing Structure Multiple Linear Regression \cite{Liu2009a}} & Use GSOM topology and multiple linear regression, new partitions created based on SOM growth mechanism & Ensemble-based, nonlinearity, flexible adaptation & Difficult for input with higher dimensions & Slow \\
+    \bottomrule
+    \end{tabular}}
+  \label{tab:model_update_mech}%
+
+\end{table}%
